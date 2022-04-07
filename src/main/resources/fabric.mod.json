@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "f777-music",
+  "version": "${version}",
+
+  "name": "F-777 Music",
+  "description": "Adds over 100 new Music Discs, all by F-777!",
+  "authors": [
+    "WitherBuilder13"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/f777-music/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.witherbuilder13.f777music.F777Music"
+    ]
+  },
+  "mixins": [
+    "f777-music.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
